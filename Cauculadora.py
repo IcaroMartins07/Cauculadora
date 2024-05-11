@@ -28,8 +28,8 @@ while True:
     menu()
     if p==5:
         print('Cauculadora Finalizada.')
+        print("=-"*30)
         break
-    print("=-"*30)
 
     a=int(input('Digite o primeiro valor: '))
     b=int(input('Digite o segundo valor: '))
