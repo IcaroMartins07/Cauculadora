@@ -10,8 +10,6 @@ def multiplicação(a, b):
 def divisão(a, b):
     r=a/b
     return r
-
-
 def menu():
     print('''=-=-=-=-=-=-=-=-Cauculadora-=-=-=-=-=-=-=-=
 1. Soma
@@ -34,7 +32,6 @@ while True:
     a=int(input('Digite o primeiro valor: '))
     b=int(input('Digite o segundo valor: '))
     print("=-"*30)
-
     if p==1:
         print(f'o resultado é {soma(a,b)}')
     elif p==2:
@@ -45,6 +42,3 @@ while True:
         print(f'o resultado é {divisão(a,b)}')
     else:
         print('Erro, tente novamente')
-
-#Pedro Icaro Viana Martins
-
